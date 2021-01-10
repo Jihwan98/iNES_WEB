@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>iNES LAB - MAKE COMMAND</title>
+    <link rel="stylesheet" href="common.css">      
+    <style>
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .button-center {
+            text-align: center;
+        }
+
+        button {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1><a href="index.html">iNES LAB</a></h1>
-    <h2>원하는 명령어를 적어주세요</h2>
-    <input type="text">
-    <button>확인</button>
-    <h2>원하는 명령어를 녹음해주세요</h2>
-    <button>녹음하기</button>
-    <a href="end.html"><button>다음</button></a>
+    <div>    
+        <h2>원하는 명령어를 적어주세요</h2>
+        <div class="button-center">
+            <input type="text">
+            <button>확인</button>
+        </div>
+    </div>
+    <div>
+        <h2>원하는 명령어를 녹음해주세요</h2>
+        <div class="button-center">
+            <button>녹음하기</button>
+            <a href="end.html"><button>다음</button></a>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+h1 {
+    display: table;
+    font-size: 50px;
+    text-align: center;
+    border: 5px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(16, 16, 90);
+}

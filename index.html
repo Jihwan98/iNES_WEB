@@ -3,13 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>iNES LAB</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+        h2 {
+            font-size: 40px;
+            text-align: center;
+        }
+        .img-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+            height: 300px;
+        }
+
+        .button-center {
+            text-align: center;
+        }
+
+        #explain {
+            text-align: center;
+            border: 2px solid gray;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            font-size: 15px;
+            padding: 5px 100px;
+        }
+
+        @media(min-width: 730px){
+            #explain {
+                width: 700px;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media(max-width: 730px){
+            .img-center {
+                    width: 100%;
+                }
+        }
+    </style>
 </head>
 <body>
     <h1><a href="index.html">iNES LAB</a></h1>
-    <img src="images/raspberry_pi.jpg" width="100%">
-    <h2>기기 이름</h1>
-    <h3>동작 원리 및 사용방법</h2>
-    <a href="setting.html"><button>Setting</button></a>
-
+    <img src="images/raspberry_pi.jpg" class="img-center">
+    <div>
+        <h2>Turn Table</h1>
+        <div id="explain">
+            <p>동작 원리 및 사용방법</p>
+        </div>
+    </div>
+    <div class="button-center">
+        <a href="setting.html"><button>Setting</button></a>
+    </div>
 </body>
 </html>
